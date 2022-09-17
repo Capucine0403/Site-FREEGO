@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(236, 235, 231), rgb(180, 190, 235));
+    font-family: 'Raleway';
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    width: 50%;
+    
+}
+
+.LogoFrigo {
+    width: 10%;
+}
+
+.headersup {
+    background-color: rgb(188, 219, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+
+.header4 .Panier {
+    width: 30px;
+}
+
+.Panier {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    width: 50%;
+}
+
+.partie1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Newin {
+    background-color: rgb(180, 190, 235);
+    width: 500px;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.Newin:hover {
+    background-color: rgb(143, 155, 155); 
+}
+
+
+h3 {
+    font-size: large;
+}
+
+.Frigo1{
+    width: 500px;
+    display: block;
+    margin-right: auto;
+}
+
+.Videodemo {
+    width: 500px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 520px;
+    margin-bottom: 300px;
+    position:absolute ;
+    left: 400px;
+}
+
+.Refroidisseur {
+    background-color: rgb(180, 190, 235);
+    width: 500px;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-left: 5%;
+    position: relative;
+    top: 400px;
+}
+
+.Refroidisseur:hover {
+    background-color: rgb(143, 155, 155);
+}
+
+.PhotoRefroid {
+    width: 200px;
+    display: block;
+    margin-right: 300px;
+    margin-left: auto;
+    margin-top: 200px;
+    
+
+    
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
